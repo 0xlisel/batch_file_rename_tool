@@ -3,7 +3,6 @@ import logging
 import argparse
 from time import sleep
 from progress.bar import Bar
-# add figlets & colors
 
 logging.basicConfig(level=logging.DEBUG, format='[%(levelname)s] %(message)s')
 parser = argparse.ArgumentParser(description="Batch file rename tool")
